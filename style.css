@@ -40,7 +40,7 @@ body {
 }
 
 .head {
-    background-image: url('netflix.jpg');
+    background-image: url('images/netflix.jpg');
     height: 680px;
     color: white;
     opacity: 0.8;
@@ -275,7 +275,4 @@ select {
     height: 30px;
     width: 80px;
     margin-left: 10px;
-}
-.footer{
-
 }

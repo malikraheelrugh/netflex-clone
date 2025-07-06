@@ -1,0 +1,281 @@
+.logo img {
+    width: 200px;
+    height: 150px;
+    margin-left: 190px;
+    
+    color:white
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-style: sans-serif;
+}
+
+.btns {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 50px;
+    width: 110px;
+    margin-right: 190px;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    margin-top: 25px;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+
+.head {
+    background-image: url('netflix.jpg');
+    height: 680px;
+    color: white;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 40px;
+
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.email button {
+    background-color: red;
+    margin-left: 10px;
+    color: white;
+    font-style: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.email input {
+    width: 300px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: black;
+    opacity: 0.5;
+    font-size: 1.1rem;
+
+}
+
+.line {
+    width: 99%;
+    height: 2px;
+    background-color: red;
+    margin-top: 2px;
+    margin: 20px;
+    border-radius: 30px;
+
+}
+
+.section {
+    margin-left: 8%;
+    color: white;
+    padding: 20px;
+    width: 70%;
+
+}
+
+#movies {
+    width: 200px;
+    height: 250px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin-left:50px;
+}
+
+#movies:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    border:2px solid white;
+}
+
+.Trending {
+    display:flex;
+    
+    width: 70%;
+}
+
+.Trending img {
+    margin: 10px;
+}
+
+.section #label {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .email {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .email input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .email button {
+        width: 100%;
+    }
+}
+
+#box {
+    background-color: rgb(3, 7, 67);
+    opacity: 0.6;
+    height: 360px;
+    width: 20%;
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px;
+    ;
+
+}
+
+.box {
+    display: flex;
+    font: sans-serif;
+    justify-content: center;
+}
+
+main h2 {
+    margin-left: 10%;
+    color: white;
+}
+
+#icon {
+    font-size: 90px;
+    color: rgb(132, 7, 7);
+    float: right;
+    margin-top: 60px;
+    ;
+    margin-right: 10px;
+}
+ .link-card {
+    background-color: rgb(69, 69, 69);
+    padding: 26px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.link-card:hover {
+    background-color:gray;
+    color: white;
+}
+#add {
+    float: right;
+    font-size: 20px;
+}
+
+.container h2 {
+    margin-left: 15%;
+}
+
+.end {
+    margin-top: 40px;
+
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+}
+#contact{
+    margin-left: 10%;
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+li {
+    list-style-type: none;
+    margin: 25px 45px;
+}
+
+li a {
+    color: white;
+    font-size: 15px;
+}
+
+span {
+    color: white;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+h5 {
+    color: white;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+select {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+
+    font-size: 15px;
+}
+#language {
+    margin-left: 10%;
+    font-size: 15px;
+}
+.language button{
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 30px;
+    width: 80px;
+    margin-left: 10px;
+}
+.footer{
+
+}

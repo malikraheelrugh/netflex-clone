@@ -127,11 +127,32 @@ h4 {
 
 }
 
+.rightMove {
+    position: absolute;
+    right: 5px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 90px;
+
+}
+
+.leftMove {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 5px;
+    margin-top: 90px;
+
+}
+
 #movies {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    width: calc(16% - 20px);
+    margin-left: 20px;
+    min-width: 200px;
 }
 
 #movies:hover {
@@ -143,7 +164,7 @@ h4 {
 .Trending {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: nowrap;
+    overflow: hidden;
 }
 
 .Trending img {}
